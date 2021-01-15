@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="gr.convr.hermes.core.statistics.PaymentsBreakdownActivity">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="60dp"
+        android:text="This Month"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:text="Total : "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/expences_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:text="126 €"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/textView19"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/f_tv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="48dp"
+        android:text="20"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@id/fuel_bar_1"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/r_tv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="72dp"
+        android:text="20"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/retail_bar_1"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/fuel_bar_1"
+        android:layout_width="15dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView30"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/fui_idp_button_background_anonymous" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="150dp"
+        android:text="  1 - 7  "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+    <ImageView
+        android:id="@+id/fuel_bar_2"
+        android:layout_width="15dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView33"
+        app:layout_constraintStart_toEndOf="@id/fuel_bar_1"
+
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/fui_idp_button_background_anonymous" />
+
+    <ImageView
+        android:id="@+id/fuel_bar_3"
+        android:layout_width="15dp"
+        android:layout_height="0dp"
+
+        android:layout_marginStart="37dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView16"
+        app:layout_constraintStart_toEndOf="@+id/retail_bar_2"
+        app:srcCompat="@drawable/fui_idp_button_background_anonymous" />
+
+    <ImageView
+        android:id="@+id/retail_bar_2"
+        android:layout_width="15dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView33"
+        app:layout_constraintStart_toEndOf="@id/fuel_bar_2"
+
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/fui_idp_button_background_email" />
+
+    <ImageView
+        android:id="@+id/retail_bar_1"
+        android:layout_width="15dp"
+        android:layout_height="0dp"
+
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView30"
+        app:layout_constraintStart_toEndOf="@+id/fuel_bar_1"
+        app:srcCompat="@drawable/fui_idp_button_background_email" />
+
+    <ImageView
+        android:id="@+id/retail_bar_3"
+        android:layout_width="15dp"
+        android:layout_height="0dp"
+
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView16"
+        app:layout_constraintStart_toEndOf="@+id/fuel_bar_3"
+        app:srcCompat="@drawable/fui_idp_button_background_email" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="150dp"
+        android:text="8 - 14"
+        app:layout_constraintStart_toEndOf="@id/textView30"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="150dp"
+        android:text="15 - 21"
+        app:layout_constraintStart_toEndOf="@+id/textView33"
+        app:layout_constraintTop_toBottomOf="@+id/expences_text" />
+
+    <TextView
+        android:id="@+id/f_tv_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:text="40"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/fuel_bar_2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/r_tv_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+
+        android:text="16"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/retail_bar_2"
+        app:layout_constraintStart_toEndOf="@+id/fuel_bar_2" />
+
+    <TextView
+        android:id="@+id/r_tv_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="6dp"
+        android:text="16"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/retail_bar_3"
+        app:layout_constraintStart_toEndOf="@+id/f_tv_3" />
+
+    <TextView
+        android:id="@+id/f_tv_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="38dp"
+        android:text="16"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/fuel_bar_3"
+        app:layout_constraintStart_toEndOf="@+id/retail_bar_2" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="150dp"
+        android:text="22 - 30"
+        app:layout_constraintStart_toEndOf="@+id/textView16"
+        app:layout_constraintTop_toBottomOf="@+id/expences_text" />
+
+    <ImageView
+        android:id="@+id/fuel_bar_4"
+        android:layout_width="15dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="132dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/textView37"
+        app:layout_constraintStart_toEndOf="@+id/fuel_bar_2"
+        app:srcCompat="@drawable/fui_idp_button_background_anonymous" />
+
+    <TextView
+        android:id="@+id/f_tv_4"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="260dp"
+        android:text="20"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/fuel_bar_4"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/r_tv_4"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="278dp"
+        android:text="30"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/retail_bar_4"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/retail_bar_4"
+        android:layout_width="15dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="4dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/textView37"
+        app:layout_constraintStart_toEndOf="@+id/fuel_bar_4"
+        app:srcCompat="@drawable/fui_idp_button_background_email" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="90dp"
+        app:layout_constraintStart_toEndOf="@+id/retail_bar_4"
+        app:layout_constraintTop_toBottomOf="@+id/expences_text"
+        app:srcCompat="@drawable/fui_idp_button_background_anonymous" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="84dp"
+        android:text="Fuel"
+        app:layout_constraintStart_toEndOf="@+id/imageView22"
+        app:layout_constraintTop_toBottomOf="@+id/expences_text" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@+id/retail_bar_4"
+        app:layout_constraintTop_toBottomOf="@+id/imageView22"
+        app:srcCompat="@drawable/fui_idp_button_background_email" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="10dp"
+        android:text="Retail"
+        app:layout_constraintStart_toEndOf="@+id/imageView23"
+        app:layout_constraintTop_toBottomOf="@+id/textView42" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

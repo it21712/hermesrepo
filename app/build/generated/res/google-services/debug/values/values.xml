@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">8388156103-l1f3aslpemt60ksujeqt5jej6dun3pd0.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">8388156103</string>
+    <string name="google_api_key" translatable="false">AIzaSyC_QCtu57RCR6xrBUAUXIAwyILTE08nHCs</string>
+    <string name="google_app_id" translatable="false">1:8388156103:android:3d5977701cc2b5bb64fce2</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC_QCtu57RCR6xrBUAUXIAwyILTE08nHCs</string>
+    <string name="google_storage_bucket" translatable="false">hermes-6a884.appspot.com</string>
+    <string name="project_id" translatable="false">hermes-6a884</string>
+</resources>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "8388156103",
+    "project_id": "hermes-6a884",
+    "storage_bucket": "hermes-6a884.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8388156103:android:3d5977701cc2b5bb64fce2",
+        "android_client_info": {
+          "package_name": "gr.convr.hermes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8388156103-ru4g10vfnt46guvd74h6cjm0s63knbt3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "gr.convr.hermes",
+            "certificate_hash": "d591c3947a032b27e30aa8e9fc2aed84ad69360b"
+          }
+        },
+        {
+          "client_id": "8388156103-l1f3aslpemt60ksujeqt5jej6dun3pd0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_QCtu57RCR6xrBUAUXIAwyILTE08nHCs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "8388156103-l1f3aslpemt60ksujeqt5jej6dun3pd0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

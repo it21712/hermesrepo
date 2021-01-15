@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="gr.convr.core.MainMenu">
+
+    <item
+        android:id="@+id/action_analytics"
+        android:icon="@drawable/baseline_bar_chart_white_24"
+        android:orderInCategory="300"
+        android:title="Analytics"
+        app:showAsAction="ifRoom"></item>
+
+</menu>
