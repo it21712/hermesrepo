@@ -12,17 +12,18 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
-import gr.convr.hermes.retail.R;
+import gr.convr.hermes.R;
 
-public class HomeFragment extends Fragment {
 
-    private HomeViewModel homeViewModel;
+public class ShoppingCartFragment extends Fragment {
+
+    private ShoppingCartViewModel homeViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         homeViewModel =
-                ViewModelProviders.of(this).get(HomeViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_home, container, false);
+                ViewModelProviders.of(this).get(ShoppingCartViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_shoppingcart, container, false);
         final TextView textView = root.findViewById(R.id.text_home);
         homeViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
