@@ -4,7 +4,7 @@
             "outputFile": "D:\\BigProjects\\AndroidStudio\\Hermes\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w480dp-port-v13\\values-w480dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\konstantinos\\.gradle\\caches\\transforms-2\\files-2.1\\ef350c6d12a205cd1930dc904e6c93fd\\material-1.2.1\\res\\values-w480dp-port-v13\\values-w480dp-port-v13.xml",
+                    "source": "C:\\Users\\konstantinos\\.gradle\\caches\\transforms-2\\files-2.1\\300550267b4959a9521aaed7d8166bf5\\material-1.3.0-beta01\\res\\values-w480dp-port-v13\\values-w480dp-port-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

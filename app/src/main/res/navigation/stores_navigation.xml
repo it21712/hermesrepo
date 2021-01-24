@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/stores_navigation">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/stores_navigation"
+    app:startDestination="@id/nav_cart">
 
+    <fragment
+        android:id="@+id/nav_cart"
+        android:name="gr.convr.hermes.retail.ui.cart.ShoppingCartFragment"
+        android:label="@string/menu_shopping_cart"
+        tools:layout="@layout/fragment_shopping_cart" />
+    <fragment
+        android:id="@+id/nav_cards"
+        android:name="gr.convr.hermes.easyfuel.tests.ui.paymentmethod.cards.CardsFragment"
+        android:label="Cards" />
+    <fragment
+        android:id="@+id/nav_paypal"
+        android:name="gr.convr.hermes.easyfuel.tests.ui.paymentmethod.paypal.PaypalAccounts"
+        android:label="PaypalAccounts" />
 </navigation>

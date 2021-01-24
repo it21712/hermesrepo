@@ -35,27 +35,6 @@ public class NavBar extends AppCompatActivity {
         NavigationView navigationView = findViewById(R.id.nav_view);
         MenuItem item = navigationView.getMenu().getItem(1);
 
-        // Passing each menu ID as a set of Ids because each
-        // menu should be considered as top level destinations.
-
-
-        /*int branch = getIntent().getIntExtra(StringExtras.SECTOR_INTENT, 0);
-
-        if(branch == StringExtras.FUEL_INTENT){
-            mAppBarConfiguration = new AppBarConfiguration.Builder(
-                    R.id.nav_profiles, R.id.nav_payment_method)
-                    .setDrawerLayout(drawer)
-                    .build();
-
-            navController.navigate(R.id.nav_profiles);
-        }else if(branch == StringExtras.STORES_INTENT){
-            mAppBarConfiguration = new AppBarConfiguration.Builder(
-                    R.id.nav_bar_scanner, R.id.nav_payment_method)
-                    .setDrawerLayout(drawer)
-                    .build();
-
-            navController.navigate(R.id.nav_bar_scanner);
-        }*/
 
         mAppBarConfiguration = new AppBarConfiguration.Builder(
                 R.id.nav_profiles, R.id.nav_cards, R.id.nav_paypal)

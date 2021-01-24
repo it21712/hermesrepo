@@ -1,22 +1,22 @@
 -- Merging decision tree log ---
 data
-INJECTED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:46:17-69
+INJECTED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:56:17-69
 	android:scheme
 		INJECTED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml
-		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:46:23-66
+		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:56:23-66
 manifest
-ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:2:1-92:12
-INJECTED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:2:1-92:12
-INJECTED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:2:1-92:12
-INJECTED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:2:1-92:12
+ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:2:1-102:12
+INJECTED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:2:1-102:12
+INJECTED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:2:1-102:12
+INJECTED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:2:1-102:12
 MERGED from [com.firebaseui:firebase-ui-auth:6.4.0] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\3ef8c0a712f280eb10b76d0220ef5ab8\jetified-firebase-ui-auth-6.4.0\AndroidManifest.xml:2:1-109:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\d2135567a6e38bbea74df555abf6615f\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
 MERGED from [com.stripe:stripe-android:12.5.0] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\7ce392faa7ff478b0c7e24bf8ea3f007\jetified-stripe-android-12.5.0\AndroidManifest.xml:2:1-29:12
 MERGED from [androidx.navigation:navigation-ui:2.3.2] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\97a3c0fe7908871e44b6ced7e498ccff\navigation-ui-2.3.2\AndroidManifest.xml:17:1-24:12
 MERGED from [com.stripe:stripe-3ds2-android:2.2.2] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\afcb2f2e903426e01e0832586d9b8154\jetified-stripe-3ds2-android-2.2.2\AndroidManifest.xml:2:1-20:12
 MERGED from [com.braintreepayments.api:drop-in:4.5.0] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\f6df7744c15ed5d39121e1a66d76cf13\jetified-drop-in-4.5.0\AndroidManifest.xml:2:1-29:12
 MERGED from [com.braintreepayments:card-form:4.2.0] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\24b821007bdfbf48ccc430fcc3b98657\jetified-card-form-4.2.0\AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.android.material:material:1.2.1] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\ef350c6d12a205cd1930dc904e6c93fd\material-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.3.0-beta01] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\300550267b4959a9521aaed7d8166bf5\material-1.3.0-beta01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\d2135567a6e38bbea74df555abf6615f\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
 MERGED from [me.zhanghai.android.materialprogressbar:library:1.6.1] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\d702578e8a68f599377f988e0a3b5568\jetified-library-1.6.1\AndroidManifest.xml:6:1-15:12
 MERGED from [com.braintreepayments.api:braintree:3.7.2] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\74ced1f9e1173d1f4bbde619e7508674\jetified-braintree-3.7.2\AndroidManifest.xml:2:1-22:12
 MERGED from [com.braintreepayments.api:three-d-secure:3.7.2] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\50e4dd04b93ed61562bc73635b8b1385\jetified-three-d-secure-3.7.2\AndroidManifest.xml:2:1-11:12
@@ -65,6 +65,7 @@ MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] C:\Users
 MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\55d80137a4195c11da1295f087486169\jetified-play-services-tasks-17.2.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-basement:17.4.0] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\4d625691f6a5bc7562ca2c54fb5d00eb\jetified-play-services-basement-17.4.0\AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\7c9d8d308197e8a2c987d8ab63c383b4\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\19f253ed8d0198f1e9ea2bcffc934391\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\962460f0206af6ac28ff95cad67d5518\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\20b17c78aea374d5a62ff6e84e38b22b\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\83a0638b8be33873fd20a24fe886a65e\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
@@ -107,20 +108,20 @@ MERGED from [com.google.firebase:protolite-well-known-types:17.1.1] C:\Users\kon
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\3403e2fdca52b4ce872b6c20396c0057\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.1-2] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\75cb6ccdcc85bdbdd19b0d5834a8e2b7\jetified-cardinalmobilesdk-2.2.1-2\AndroidManifest.xml:2:1-26:12
 MERGED from [com.paypal.android.sdk:data-collector:3.7.2] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\dd78afe4534780c3af4e2fab3d1faaf0\jetified-data-collector-3.7.2\AndroidManifest.xml:2:1-13:12
-INJECTED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:2:1-92:12
-INJECTED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:2:1-92:12
-INJECTED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:2:1-92:12
+INJECTED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:2:1-102:12
+INJECTED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:2:1-102:12
+INJECTED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:2:1-102:12
 	package
 		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:3:5-30
 		INJECTED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml
 		INJECTED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml
-		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:2:1-92:12
+		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:2:1-102:12
 		INJECTED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml
-		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:2:1-92:12
+		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:2:1-102:12
 		INJECTED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:2:11-69
@@ -161,19 +162,19 @@ ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:
 	android:name
 		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:6:22-62
 application
-ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:8:5-90:19
+ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:8:5-100:19
 MERGED from [com.firebaseui:firebase-ui-auth:6.4.0] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\3ef8c0a712f280eb10b76d0220ef5ab8\jetified-firebase-ui-auth-6.4.0\AndroidManifest.xml:15:5-107:19
 MERGED from [com.firebaseui:firebase-ui-auth:6.4.0] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\3ef8c0a712f280eb10b76d0220ef5ab8\jetified-firebase-ui-auth-6.4.0\AndroidManifest.xml:15:5-107:19
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\d2135567a6e38bbea74df555abf6615f\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\d2135567a6e38bbea74df555abf6615f\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
 MERGED from [com.stripe:stripe-android:12.5.0] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\7ce392faa7ff478b0c7e24bf8ea3f007\jetified-stripe-android-12.5.0\AndroidManifest.xml:11:5-27:19
 MERGED from [com.stripe:stripe-android:12.5.0] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\7ce392faa7ff478b0c7e24bf8ea3f007\jetified-stripe-android-12.5.0\AndroidManifest.xml:11:5-27:19
 MERGED from [com.stripe:stripe-3ds2-android:2.2.2] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\afcb2f2e903426e01e0832586d9b8154\jetified-stripe-3ds2-android-2.2.2\AndroidManifest.xml:11:5-18:19
 MERGED from [com.stripe:stripe-3ds2-android:2.2.2] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\afcb2f2e903426e01e0832586d9b8154\jetified-stripe-3ds2-android-2.2.2\AndroidManifest.xml:11:5-18:19
 MERGED from [com.braintreepayments.api:drop-in:4.5.0] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\f6df7744c15ed5d39121e1a66d76cf13\jetified-drop-in-4.5.0\AndroidManifest.xml:15:5-27:19
 MERGED from [com.braintreepayments.api:drop-in:4.5.0] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\f6df7744c15ed5d39121e1a66d76cf13\jetified-drop-in-4.5.0\AndroidManifest.xml:15:5-27:19
-MERGED from [com.google.android.material:material:1.2.1] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\ef350c6d12a205cd1930dc904e6c93fd\material-1.2.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.2.1] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\ef350c6d12a205cd1930dc904e6c93fd\material-1.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.3.0-beta01] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\300550267b4959a9521aaed7d8166bf5\material-1.3.0-beta01\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.3.0-beta01] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\300550267b4959a9521aaed7d8166bf5\material-1.3.0-beta01\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\d2135567a6e38bbea74df555abf6615f\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\d2135567a6e38bbea74df555abf6615f\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
 MERGED from [com.braintreepayments.api:braintree:3.7.2] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\74ced1f9e1173d1f4bbde619e7508674\jetified-braintree-3.7.2\AndroidManifest.xml:16:5-20:19
 MERGED from [com.braintreepayments.api:braintree:3.7.2] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\74ced1f9e1173d1f4bbde619e7508674\jetified-braintree-3.7.2\AndroidManifest.xml:16:5-20:19
 MERGED from [com.google.firebase:firebase-analytics:18.0.0] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\d7c9d5d6ced0efce37968ef2e6bbde30\jetified-firebase-analytics-18.0.0\AndroidManifest.xml:7:5-20
@@ -258,146 +259,168 @@ MERGED from [org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.1-2] C:\Use
 		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:15:9-49
 	android:networkSecurityConfig
 		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:12:9-69
-activity#gr.convr.hermes.core.PaypalAccountsActivity
-ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:16:9-65
+activity#gr.convr.hermes.retail.StoresNavBar
+ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:16:9-19:77
+	android:label
+		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:18:13-66
+	android:theme
+		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:19:13-65
 	android:name
-		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:16:19-62
-activity#gr.convr.hermes.core.CardsActivity
-ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:17:9-56
-	android:name
-		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:17:19-53
-activity#gr.convr.hermes.easyfuel.TransactionStatusMessageActivity
-ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:18:9-79
-	android:name
-		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:18:19-76
-activity#gr.convr.hermes.core.statistics.PaymentsBreakdownActivity
-ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:19:9-79
-	android:name
-		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:19:19-76
-activity#gr.convr.hermes.core.AccountDetails
+		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:17:13-48
+activity#gr.convr.hermes.stores.ShoppingCart
 ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:20:9-57
 	android:name
 		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:20:19-54
-activity#gr.convr.hermes.wickets.WicketCodeActivity
-ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:21:9-64
+activity#gr.convr.hermes.stores.ui.ShoppingCart
+ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:21:9-60
 	android:name
-		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:21:19-61
-activity#gr.convr.hermes.easyfuel.tests.NavBar
-ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:22:9-35:20
+		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:21:19-57
+activity#gr.convr.hermes.stores.StoresNavBar
+ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:22:9-25:68
 	android:label
-		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:24:13-59
+		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:24:13-73
 	android:theme
 		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:25:13-65
 	android:name
-		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:23:13-50
+		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:23:13-48
+activity#gr.convr.hermes.core.PaypalAccountsActivity
+ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:26:9-65
+	android:name
+		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:26:19-62
+activity#gr.convr.hermes.core.CardsActivity
+ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:27:9-56
+	android:name
+		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:27:19-53
+activity#gr.convr.hermes.easyfuel.TransactionStatusMessageActivity
+ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:28:9-79
+	android:name
+		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:28:19-76
+activity#gr.convr.hermes.core.statistics.PaymentsBreakdownActivity
+ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:29:9-79
+	android:name
+		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:29:19-76
+activity#gr.convr.hermes.core.AccountDetails
+ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:30:9-57
+	android:name
+		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:30:19-54
+activity#gr.convr.hermes.wickets.WicketCodeActivity
+ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:31:9-64
+	android:name
+		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:31:19-61
+activity#gr.convr.hermes.easyfuel.tests.NavBar
+ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:32:9-45:20
+	android:label
+		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:34:13-59
+	android:theme
+		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:35:13-65
+	android:name
+		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:33:13-50
 activity#gr.convr.hermes.easyfuel.braintreegateway.BraintreeBrowserSwitchActivity
-ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:36:9-94
+ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:46:9-94
 	android:name
-		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:36:19-91
+		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:46:19-91
 activity#com.braintreepayments.api.BraintreeBrowserSwitchActivity
-ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:37:9-48:20
+ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:47:9-58:20
 	android:launchMode
-		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:39:13-44
+		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:49:13-44
 	android:name
-		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:38:13-84
+		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:48:13-84
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:gr.convr.hermes.braintree
-ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:40:13-47:29
+ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:50:13-57:29
 action#android.intent.action.VIEW
-ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:41:17-69
+ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:51:17-69
 	android:name
-		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:41:25-66
+		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:51:25-66
 category#android.intent.category.DEFAULT
-ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:43:17-76
+ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:53:17-76
 	android:name
-		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:43:27-73
+		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:53:27-73
 category#android.intent.category.BROWSABLE
-ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:44:17-78
+ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:54:17-78
 	android:name
-		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:44:27-75
+		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:54:27-75
 activity#gr.convr.hermes.easyfuel.braintreegateway.BraintreeSetupIntentActivity
-ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:49:9-92
+ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:59:9-92
 	android:name
-		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:49:19-89
+		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:59:19-89
 activity#gr.convr.hermes.easyfuel.login.HermesUsageActivity
-ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:50:9-58:20
+ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:60:9-68:20
 	android:name
-		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:50:19-69
+		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:60:19-69
 activity#gr.convr.hermes.easyfuel.enterprice.eu.vatchecker.VATCheckActivity
-ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:59:9-88
+ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:69:9-88
 	android:name
-		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:59:19-85
+		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:69:19-85
 activity#gr.convr.hermes.easyfuel.enterprice.eu.vatchecker.TestActivity
-ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:60:9-84
+ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:70:9-84
 	android:name
-		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:60:19-81
+		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:70:19-81
 activity#gr.convr.hermes.core.MainMenu
-ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:61:9-69:20
+ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:71:9-79:20
 	android:name
-		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:61:19-48
+		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:71:19-48
 activity#gr.convr.hermes.stripe.CardDetailsActivity
-ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:70:9-64
+ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:80:9-64
 	android:name
-		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:70:19-61
+		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:80:19-61
 activity#gr.convr.hermes.stripe.SetupIntentActivity
-ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:71:9-64
+ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:81:9-64
 	android:name
-		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:71:19-61
+		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:81:19-61
 activity#gr.convr.hermes.easyfuel.QuickSelection
-ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:72:9-61
+ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:82:9-61
 	android:name
-		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:72:19-58
+		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:82:19-58
 activity#gr.convr.hermes.easyfuel.NewProfileActivity
-ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:73:9-65
+ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:83:9-65
 	android:name
-		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:73:19-62
+		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:83:19-62
 activity#gr.convr.hermes.easyfuel.ProfilesActivity
-ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:74:9-63
+ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:84:9-63
 	android:name
-		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:74:19-60
+		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:84:19-60
 activity#gr.convr.hermes.easyfuel.BarcodeActivity
-ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:75:9-62
+ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:85:9-62
 	android:name
-		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:75:19-59
+		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:85:19-59
 activity#gr.convr.hermes.easyfuel.MainActivity
-ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:76:9-59
+ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:86:9-59
 	android:name
-		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:76:19-56
+		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:86:19-56
 activity#gr.convr.hermes.google_auth.LoginActivity
-ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:77:9-63
+ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:87:9-63
 	android:name
-		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:77:19-60
+		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:87:19-60
 activity#gr.convr.hermes.google_auth.RegisterActivity
-ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:78:9-66
+ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:88:9-66
 	android:name
-		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:78:19-63
+		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:88:19-63
 activity#gr.convr.hermes.google_auth.AuthenticateActivity
-ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:79:9-85:20
+ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:89:9-95:20
 	android:name
-		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:79:19-67
+		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:89:19-67
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:80:13-84:29
+ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:90:13-94:29
 action#android.intent.action.MAIN
-ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:81:17-69
+ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:91:17-69
 	android:name
-		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:81:25-66
+		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:91:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:83:17-77
+ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:93:17-77
 	android:name
-		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:83:27-74
+		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:93:27-74
 meta-data#com.google.android.gms.wallet.api.enabled
-ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:87:9-89:36
+ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:97:9-99:36
 	android:value
-		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:89:13-33
+		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:99:13-33
 	android:name
-		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:88:13-69
+		ADDED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:98:13-69
 uses-sdk
 INJECTED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml
 INJECTED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml
 MERGED from [com.firebaseui:firebase-ui-auth:6.4.0] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\3ef8c0a712f280eb10b76d0220ef5ab8\jetified-firebase-ui-auth-6.4.0\AndroidManifest.xml:8:5-10:41
 MERGED from [com.firebaseui:firebase-ui-auth:6.4.0] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\3ef8c0a712f280eb10b76d0220ef5ab8\jetified-firebase-ui-auth-6.4.0\AndroidManifest.xml:8:5-10:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\d2135567a6e38bbea74df555abf6615f\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\d2135567a6e38bbea74df555abf6615f\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
 MERGED from [com.stripe:stripe-android:12.5.0] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\7ce392faa7ff478b0c7e24bf8ea3f007\jetified-stripe-android-12.5.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.stripe:stripe-android:12.5.0] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\7ce392faa7ff478b0c7e24bf8ea3f007\jetified-stripe-android-12.5.0\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.navigation:navigation-ui:2.3.2] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\97a3c0fe7908871e44b6ced7e498ccff\navigation-ui-2.3.2\AndroidManifest.xml:20:5-22:41
@@ -408,8 +431,10 @@ MERGED from [com.braintreepayments.api:drop-in:4.5.0] C:\Users\konstantinos\.gra
 MERGED from [com.braintreepayments.api:drop-in:4.5.0] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\f6df7744c15ed5d39121e1a66d76cf13\jetified-drop-in-4.5.0\AndroidManifest.xml:8:5-10:41
 MERGED from [com.braintreepayments:card-form:4.2.0] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\24b821007bdfbf48ccc430fcc3b98657\jetified-card-form-4.2.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.braintreepayments:card-form:4.2.0] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\24b821007bdfbf48ccc430fcc3b98657\jetified-card-form-4.2.0\AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.android.material:material:1.2.1] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\ef350c6d12a205cd1930dc904e6c93fd\material-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.2.1] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\ef350c6d12a205cd1930dc904e6c93fd\material-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0-beta01] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\300550267b4959a9521aaed7d8166bf5\material-1.3.0-beta01\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0-beta01] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\300550267b4959a9521aaed7d8166bf5\material-1.3.0-beta01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\d2135567a6e38bbea74df555abf6615f\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\d2135567a6e38bbea74df555abf6615f\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
 MERGED from [me.zhanghai.android.materialprogressbar:library:1.6.1] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\d702578e8a68f599377f988e0a3b5568\jetified-library-1.6.1\AndroidManifest.xml:11:5-13:41
 MERGED from [me.zhanghai.android.materialprogressbar:library:1.6.1] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\d702578e8a68f599377f988e0a3b5568\jetified-library-1.6.1\AndroidManifest.xml:11:5-13:41
 MERGED from [com.braintreepayments.api:braintree:3.7.2] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\74ced1f9e1173d1f4bbde619e7508674\jetified-braintree-3.7.2\AndroidManifest.xml:8:5-11:74
@@ -506,6 +531,8 @@ MERGED from [com.google.android.gms:play-services-basement:17.4.0] C:\Users\kons
 MERGED from [com.google.android.gms:play-services-basement:17.4.0] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\4d625691f6a5bc7562ca2c54fb5d00eb\jetified-play-services-basement-17.4.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\7c9d8d308197e8a2c987d8ab63c383b4\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\7c9d8d308197e8a2c987d8ab63c383b4\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\19f253ed8d0198f1e9ea2bcffc934391\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\19f253ed8d0198f1e9ea2bcffc934391\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\962460f0206af6ac28ff95cad67d5518\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\962460f0206af6ac28ff95cad67d5518\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\20b17c78aea374d5a62ff6e84e38b22b\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -937,7 +964,7 @@ ADDED from [androidmads.library.qrgenearator:QRGenearator:1.0.3] C:\Users\konsta
 	android:name
 		ADDED from [androidmads.library.qrgenearator:QRGenearator:1.0.3] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\bdbd310f21a8ae7104d8f16c684bec15\jetified-QRGenearator-1.0.3\AndroidManifest.xml:11:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:2:1-92:12 reason: androidmads.library.qrgenearator requested WRITE_EXTERNAL_STORAGE
+IMPLIED from D:\BigProjects\AndroidStudio\Hermes\app\src\main\AndroidManifest.xml:2:1-102:12 reason: androidmads.library.qrgenearator requested WRITE_EXTERNAL_STORAGE
 activity#com.braintreepayments.api.GooglePaymentActivity
 ADDED from [com.braintreepayments.api:google-payment:3.1.1] C:\Users\konstantinos\.gradle\caches\transforms-2\files-2.1\5601ad9e6809d85247b25ea032ac3e75\jetified-google-payment-3.1.1\AndroidManifest.xml:12:9-14:62
 	android:theme

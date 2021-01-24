@@ -34,6 +34,16 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/HermesCustomTheme" >
+        <activity
+            android:name="gr.convr.hermes.retail.StoresNavBar"
+            android:label="@string/title_activity_stores_nav_bar"
+            android:theme="@style/HermesCustomTheme.NoActionBar" />
+        <activity android:name="gr.convr.hermes.stores.ShoppingCart" />
+        <activity android:name="gr.convr.hermes.stores.ui.ShoppingCart" />
+        <activity
+            android:name="gr.convr.hermes.stores.StoresNavBar"
+            android:label="@string/title_activity_shopping_cart_nav_bar"
+            android:theme="@style/HermesCustomTheme.NoActionBar" />
         <activity android:name="gr.convr.hermes.core.PaypalAccountsActivity" />
         <activity android:name="gr.convr.hermes.core.CardsActivity" />
         <activity android:name="gr.convr.hermes.easyfuel.TransactionStatusMessageActivity" />

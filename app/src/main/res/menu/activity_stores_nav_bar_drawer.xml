@@ -5,16 +5,26 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
-        <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/baseline_shopping_cart_black_24"
+            android:title="Cart" />
+
     </group>
+
+    <item android:title="Payment Methods">
+        <menu>
+
+            <item
+                android:id="@+id/nav_cards"
+                android:icon="@drawable/baseline_payment_black_24"
+                android:title="Cards" />
+            <item
+                android:id="@+id/nav_paypal"
+                android:icon="@drawable/bt_ic_vaulted_paypal"
+                android:title="PayPal Accounts" />
+
+        </menu>
+    </item>
+
+
 </menu>

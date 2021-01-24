@@ -1,15 +1,10 @@
-
 //TODO hash password on firebase database
 //TODO follow firebase authentication guide link: https://firebase.google.com/docs/auth/android/google-signin
 
 
-//TODO select a card (later)
-
 //TODO save company name on continue in vat check activity for use in barcode activity
 
 //TODO save real customer details instead of John Doe
-
-//TODO Save linked ids for tokens and not nonce in the ids.txt file
 
 //TODO 3D Secure, verification for cards
 //TODO authorize client token generation with customerId to be able to show vault manager on dropin requests

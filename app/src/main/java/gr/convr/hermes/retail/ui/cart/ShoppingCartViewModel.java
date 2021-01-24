@@ -1,4 +1,4 @@
-package gr.convr.hermes.retail.ui.home;
+package gr.convr.hermes.retail.ui.cart;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

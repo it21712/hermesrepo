@@ -16,6 +16,7 @@ import gr.convr.hermes.core.statistics.PaymentsBreakdownActivity;
 import gr.convr.hermes.R;
 import gr.convr.hermes.easyfuel.login.HermesUsageActivity;
 import gr.convr.hermes.easyfuel.tests.NavBar;
+import gr.convr.hermes.retail.StoresNavBar;
 import gr.convr.hermes.storage.Storage;
 
 import gr.convr.hermes.wickets.WicketCodeActivity;
@@ -64,11 +65,11 @@ public class MainMenu extends AppCompatActivity {
                 i.putExtra(StringExtras.SECTOR_INTENT, StringExtras.STORES_INTENT);
                 startActivity(i);
             }
-           /* else {
-                Intent n = new Intent(MainMenu.this, BarcodeMain.class);
-                n.putExtra(StringExtras.SECTOR_INTENT, StringExtras.STORES_INTENT);//TODO go to shopping cart
+            else {
+                Intent n = new Intent(MainMenu.this, StoresNavBar.class);
+                n.putExtra(StringExtras.SECTOR_INTENT, StringExtras.STORES_INTENT);
                 startActivity(n);
-            }*/
+            }
         });
 
         wicketBtn.setOnClickListener(v -> {

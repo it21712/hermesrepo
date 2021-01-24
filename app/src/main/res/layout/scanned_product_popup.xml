@@ -6,32 +6,77 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:theme="@style/HermesCustomTheme">
+
     <LinearLayout
-        android:layout_width="409dp"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="1dp"
-        android:layout_marginEnd="1dp"
-        android:layout_marginBottom="1dp"
         android:orientation="vertical"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-        <Button
-            android:id="@+id/cards_btn"
+        <TextView
+            android:id="@+id/textView28"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Credit / Debit Card"
-            android:layout_marginTop="40dp"
-            android:layout_marginBottom="10dp"
-            android:layout_marginHorizontal="40dp"/>
+            android:paddingBottom="40dp"
+            android:paddingTop="20dp"
+            android:paddingLeft="20dp"
+            android:text="Is this the correct product?" />
 
-        <Button
-            android:id="@+id/paypal_btn"
+        <TextView
+            android:id="@+id/product_name_txt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/bt_descriptor_paypal"
-            android:layout_marginBottom="40dp"
-            android:layout_marginHorizontal="40dp"/>
+            android:textAlignment="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textSize="18dp"
+            android:text="ΠΕΛΤΕΣ ΝΤΟΜΑΤΑΣ ΚΥΚΝΟΣ 500γρ" />
+
+        <ImageView
+            android:id="@+id/product_img"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:layout_marginHorizontal="50dp"
+
+            app:srcCompat="@drawable/kyknos_crushed_tomatoes_500" />
+
+        <TextView
+            android:id="@+id/product_price_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:text="1,50" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/yes_btn"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:text="YES" />
+
+            <Button
+                android:id="@+id/no_btn"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:text="NO" />
+        </LinearLayout>
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
