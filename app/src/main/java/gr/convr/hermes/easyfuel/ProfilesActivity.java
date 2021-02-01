@@ -25,8 +25,6 @@ public class ProfilesActivity extends AppCompatActivity {
 
     private static ArrayList<String> profNames = new ArrayList<>();
 
-    private final String userMail = StringExtras.getEmailValue();
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

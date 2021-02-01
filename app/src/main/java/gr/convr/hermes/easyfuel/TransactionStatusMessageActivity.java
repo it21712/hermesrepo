@@ -31,7 +31,7 @@ public class TransactionStatusMessageActivity extends AppCompatActivity {
             transactionStatusTextView.setTextColor(ContextCompat.getColor(getBaseContext(), R.color.green));
             transactionStatusTextView.setText("Transaction Completed");
 
-            dateTextView.setText("05/12/2020 18:23:17");
+            dateTextView.setText("30/01/2021 10:23:17");
 
         }else if(status.equals("")){
             transactionStatusTextView.setTextColor(ContextCompat.getColor(getBaseContext(), R.color.darkRed));

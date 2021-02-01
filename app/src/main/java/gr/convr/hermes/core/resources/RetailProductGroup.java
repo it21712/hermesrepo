@@ -2,7 +2,7 @@ package gr.convr.hermes.core.resources;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.media.Image;
+
 import android.util.Base64;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -37,19 +37,17 @@ public class RetailProductGroup {
 
     public RetailProduct getProduct(){return product;}
 
+
+
+
     public void setProduct(RetailProduct product){
 
-        Bitmap bm = decodeImage(product.getimgTxt());
-        img.setImageBitmap(bm);
+
 
         nameTxt.setText(product.getName());
 
         String priceStr = product.getPrice()+" "+euroSign;
         pricetxt.setText(priceStr);
-
-
-
-
     }
 
 

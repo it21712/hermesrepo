@@ -21,12 +21,12 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
-
+    <!--Theme.AppCompat.Light.DarkActionBar-->
     <style name="HermesCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorPrimary">@color/orangeRed</item>
         <item name="colorPrimaryDark">@color/black</item>
-        <item name="colorAccent">@color/orangeRed</item>
-        <!--<item name="titleTextColor">@color/black</item>-->
+        <item name="colorAccent">@color/orangeRed<!--orangeRed--></item>
+
         <item name="android:textColor">@color/black</item>
         <item name="colorButtonNormal">@color/hermes_button_color</item>
         <item name="colorControlHighlight">@color/khaki</item>

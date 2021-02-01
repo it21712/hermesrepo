@@ -1,5 +1,7 @@
 package gr.convr.hermes.easyfuel.server;
 
+import android.media.Image;
+
 import com.google.gson.Gson;
 import com.google.gson.annotations.SerializedName;
 
@@ -13,7 +15,7 @@ import okhttp3.RequestBody;
 
 public class BraintreeServerAPIS {
 
-    private static final String BACKEND_URL = "http://10.0.2.2:4567/";
+    private static final String BACKEND_URL = "http://hermes0server.ddns.net:4567/";
 
     public static final String CLIENT_TOKEN_URL = "client_token";
     public static final String CHECKOUT_URL = "checkout";
@@ -22,6 +24,7 @@ public class BraintreeServerAPIS {
     public static final String PAYPAL_DETAILS_URL = "paypal_accounts";
     public static final String ADD_PAYMENT_METHOD_URL = "add_payment_method";
     public static final String DELETE_PAYMENT_METHOD_URL = "delete_payment_method";
+    public static final String GET_SCANNED_PRODUCT_LABEL = "label";
 
     private static Gson gson = new Gson();
 
@@ -60,7 +63,42 @@ public class BraintreeServerAPIS {
 
     }
 
+    public static class RetailProduct{
 
+        private String name;
+        private float price;
+        private Image img;
+
+
+        public RetailProduct(String name, float price){
+            this.name = name;
+            this.price = price;
+        }
+
+        public String getName() {
+            return name;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
+
+        public float getPrice() {
+            return price;
+        }
+
+        public void setPrice(float price) {
+            this.price = price;
+        }
+
+        public Image getImg() {
+            return img;
+        }
+
+        public void setImg(Image img) {
+            this.img = img;
+        }
+    }
 
 
     public static class Customer{

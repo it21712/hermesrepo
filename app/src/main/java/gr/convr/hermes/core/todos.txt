@@ -1,1 +1,2 @@
 //TODO update firebase customerId field after card input
+//TODO save server ip to filesystem encoded and load it while app is running. So it is not hardcoded in the source code

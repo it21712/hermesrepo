@@ -2071,6 +2071,7 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
+drawable delta_milk
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -2157,6 +2158,8 @@ drawable ic_unknown
 drawable ic_visa
 drawable ic_visa_template_32
 drawable kyknos_crushed_tomatoes_500
+drawable kyknos_tomato
+drawable loux_orange
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -2168,6 +2171,7 @@ drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
 drawable minus
+drawable monster_drink
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
 drawable mtrl_ic_arrow_drop_down
@@ -2178,6 +2182,7 @@ drawable mtrl_popupmenu_background
 drawable mtrl_popupmenu_background_dark
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
+drawable nescafe_classic
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -2754,6 +2759,7 @@ id password_layout
 id password_toggle
 id path
 id pathRelative
+id pay_pm_fab
 id payment_auth_web_view_toolbar
 id payment_methods_coordinator
 id payment_methods_progress_bar
@@ -2774,7 +2780,9 @@ id pms_text
 id position
 id postLayout
 id product_img
+id product_name_layout
 id product_name_txt
+id product_price_layout
 id product_price_txt
 id production
 id products_layout
