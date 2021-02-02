@@ -24,6 +24,7 @@ import gr.convr.hermes.core.resources.StringExtras;
 import gr.convr.hermes.R;
 import gr.convr.hermes.easyfuel.server.BraintreeServerAPIS;
 import gr.convr.hermes.easyfuel.tests.NavBar;
+import gr.convr.hermes.retail.StoresNavBar;
 import gr.convr.hermes.retail.ui.cart.ShoppingCartFragment;
 import gr.convr.hermes.storage.Storage;
 
@@ -212,7 +213,7 @@ public class BraintreeSetupIntentActivity extends AppCompatActivity {
                             i.putExtra(StringExtras.SECTOR_INTENT, 0);
                             break;
                         case 1:
-                            i = new Intent(BraintreeSetupIntentActivity.this, ShoppingCartFragment.class);//barcodemain //TODO go to shopping cart
+                            i = new Intent(BraintreeSetupIntentActivity.this, StoresNavBar.class);//barcodemain //TODO go to shopping cart
                             i.putExtra(StringExtras.SECTOR_INTENT, 1);
                             break;
                         case 2:
