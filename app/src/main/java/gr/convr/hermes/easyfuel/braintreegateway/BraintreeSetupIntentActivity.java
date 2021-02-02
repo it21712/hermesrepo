@@ -24,6 +24,7 @@ import gr.convr.hermes.core.resources.StringExtras;
 import gr.convr.hermes.R;
 import gr.convr.hermes.easyfuel.server.BraintreeServerAPIS;
 import gr.convr.hermes.easyfuel.tests.NavBar;
+import gr.convr.hermes.retail.ui.cart.ShoppingCartFragment;
 import gr.convr.hermes.storage.Storage;
 
 import gr.convr.hermes.wickets.WicketCodeActivity;
@@ -210,10 +211,10 @@ public class BraintreeSetupIntentActivity extends AppCompatActivity {
                             i = new Intent(BraintreeSetupIntentActivity.this, NavBar.class);
                             i.putExtra(StringExtras.SECTOR_INTENT, 0);
                             break;
-                       /* case 1:
-                            i = new Intent(BraintreeSetupIntentActivity.this, BarcodeMain.class);//barcodemain //TODO go to shopping cart
+                        case 1:
+                            i = new Intent(BraintreeSetupIntentActivity.this, ShoppingCartFragment.class);//barcodemain //TODO go to shopping cart
                             i.putExtra(StringExtras.SECTOR_INTENT, 1);
-                            break;*/
+                            break;
                         case 2:
                             i = new Intent(BraintreeSetupIntentActivity.this, WicketCodeActivity.class);
                             break;
