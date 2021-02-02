@@ -16,6 +16,10 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
+        releaseDebugKey { initWith release }
+    }
+    signingConfigs{
+        releaseDebugKey { initWith debug }
     }
     compileOptions {
         sourceCompatibility = 1.8

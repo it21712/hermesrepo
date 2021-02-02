@@ -14,6 +14,8 @@ import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 
+import java.io.File;
+
 import gr.convr.hermes.core.MainMenu;
 import gr.convr.hermes.core.resources.StringExtras;
 import gr.convr.hermes.R;
@@ -68,11 +70,15 @@ public class LoginActivity extends AppCompatActivity {
                     StringExtras.COMPANY_VAT = (String)document.get("companyVat");
 
                     if(!isEmployee){
+
+                    if(Storage.checkExists(getBaseContext(), false,StringExtras.getEmailValue())){
                         String defaultTokenId = Storage.getProcessingInfo(getBaseContext(), false, StringExtras.getEmailValue(), StringExtras.PAYMENT_TOKEN_ID);
                         if(defaultTokenId != null)
                             StringExtras.SELECTED_PAYMENT_TOKEN_ID = defaultTokenId;
                     }
 
+
+                    }
                     startActivity(new Intent(LoginActivity.this, MainMenu.class));
                     finish();
                     /*if(Storage.getProcessingInfo(LoginActivity.this, StringExtras.IS_EMPLOYEE, StringExtras.EMAIL_VALUE, StringExtras.CUSTOMER_ID) == null)

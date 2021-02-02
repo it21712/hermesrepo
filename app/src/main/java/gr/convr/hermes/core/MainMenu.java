@@ -49,27 +49,44 @@ public class MainMenu extends AppCompatActivity {
 
         easyfuelBtn.setOnClickListener(v -> {
 
-            if(Storage.getProcessingInfo(MainMenu.this, StringExtras.IS_EMPLOYEE, StringExtras.EMAIL_VALUE, StringExtras.CUSTOMER_ID) == null){
+            if(Storage.checkExists(MainMenu.this, StringExtras.IS_EMPLOYEE, StringExtras.EMAIL_VALUE)){
+
+                if(Storage.getProcessingInfo(MainMenu.this, StringExtras.IS_EMPLOYEE, StringExtras.EMAIL_VALUE, StringExtras.CUSTOMER_ID) == null){
+                    i.putExtra(StringExtras.SECTOR_INTENT, StringExtras.FUEL_INTENT);
+                    startActivity(i);
+                }
+                else {
+                    Intent n = new Intent(MainMenu.this, NavBar.class);
+                    n.putExtra(StringExtras.SECTOR_INTENT, StringExtras.FUEL_INTENT);
+                    startActivity(n);
+                }
+
+            }else{
                 i.putExtra(StringExtras.SECTOR_INTENT, StringExtras.FUEL_INTENT);
                 startActivity(i);
             }
-            else {
-                Intent n = new Intent(MainMenu.this, NavBar.class);
-                n.putExtra(StringExtras.SECTOR_INTENT, StringExtras.FUEL_INTENT);
-                startActivity(n);
-            }
+
         });
 
         storesBtn.setOnClickListener(v -> {
-            if(Storage.getProcessingInfo(MainMenu.this, StringExtras.IS_EMPLOYEE, StringExtras.EMAIL_VALUE, StringExtras.CUSTOMER_ID) == null){
+
+            if(Storage.checkExists(MainMenu.this, StringExtras.IS_EMPLOYEE, StringExtras.EMAIL_VALUE)){
+                if(Storage.getProcessingInfo(MainMenu.this, StringExtras.IS_EMPLOYEE, StringExtras.EMAIL_VALUE, StringExtras.CUSTOMER_ID) == null){
+                    i.putExtra(StringExtras.SECTOR_INTENT, StringExtras.STORES_INTENT);
+                    startActivity(i);
+                }
+                else {
+                    Intent n = new Intent(MainMenu.this, StoresNavBar.class);
+                    n.putExtra(StringExtras.SECTOR_INTENT, StringExtras.STORES_INTENT);
+                    startActivity(n);
+                }
+
+            }else{
                 i.putExtra(StringExtras.SECTOR_INTENT, StringExtras.STORES_INTENT);
                 startActivity(i);
             }
-            else {
-                Intent n = new Intent(MainMenu.this, StoresNavBar.class);
-                n.putExtra(StringExtras.SECTOR_INTENT, StringExtras.STORES_INTENT);
-                startActivity(n);
-            }
+
+
         });
 
         wicketBtn.setOnClickListener(v -> {

@@ -48,7 +48,7 @@ public class BraintreeSetupIntentActivity extends AppCompatActivity {
         setContentView(R.layout.activity_braintree_setup_intent);
 
         op = getIntent().getStringExtra(StringExtras.PAYMENT_METHOD_OP);
-
+        //Log.d("SETUP", "ON BRaINTREE");
         BraintreeServerAPIS.sendRequest2(BraintreeServerAPIS.CLIENT_TOKEN_URL, "", new Callback() {
             @Override
             public void onFailure(Call call, IOException e) {

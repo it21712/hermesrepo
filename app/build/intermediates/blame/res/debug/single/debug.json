@@ -24,12 +24,12 @@
         "source": "D:\\BigProjects\\AndroidStudio\\Hermes\\app\\src\\main\\res\\layout\\activity_quick_selection.xml"
     },
     {
-        "merged": "D:\\BigProjects\\AndroidStudio\\Hermes\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "D:\\BigProjects\\AndroidStudio\\Hermes\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
-    },
-    {
         "merged": "D:\\BigProjects\\AndroidStudio\\Hermes\\app\\build\\intermediates\\res\\merged\\debug\\drawable_baseline_check_circle_black_18.png.flat",
         "source": "D:\\BigProjects\\AndroidStudio\\Hermes\\app\\src\\main\\res\\drawable\\baseline_check_circle_black_18.png"
+    },
+    {
+        "merged": "D:\\BigProjects\\AndroidStudio\\Hermes\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\BigProjects\\AndroidStudio\\Hermes\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
         "merged": "D:\\BigProjects\\AndroidStudio\\Hermes\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_manage.xml.flat",
@@ -176,12 +176,12 @@
         "source": "D:\\BigProjects\\AndroidStudio\\Hermes\\app\\src\\main\\res\\drawable\\refuel1.jpg"
     },
     {
-        "merged": "D:\\BigProjects\\AndroidStudio\\Hermes\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_braintree_browser_switch.xml.flat",
-        "source": "D:\\BigProjects\\AndroidStudio\\Hermes\\app\\src\\main\\res\\layout\\activity_braintree_browser_switch.xml"
-    },
-    {
         "merged": "D:\\BigProjects\\AndroidStudio\\Hermes\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_shopping_cart.xml.flat",
         "source": "D:\\BigProjects\\AndroidStudio\\Hermes\\app\\src\\main\\res\\layout\\fragment_shopping_cart.xml"
+    },
+    {
+        "merged": "D:\\BigProjects\\AndroidStudio\\Hermes\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_braintree_browser_switch.xml.flat",
+        "source": "D:\\BigProjects\\AndroidStudio\\Hermes\\app\\src\\main\\res\\layout\\activity_braintree_browser_switch.xml"
     },
     {
         "merged": "D:\\BigProjects\\AndroidStudio\\Hermes\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_profiles.xml.flat",
@@ -196,16 +196,16 @@
         "source": "D:\\BigProjects\\AndroidStudio\\Hermes\\app\\src\\main\\res\\drawable\\baseline_translate_black_18.png"
     },
     {
+        "merged": "D:\\BigProjects\\AndroidStudio\\Hermes\\app\\build\\intermediates\\res\\merged\\debug\\drawable_nescafe_classic.jpg.flat",
+        "source": "D:\\BigProjects\\AndroidStudio\\Hermes\\app\\src\\main\\res\\drawable\\nescafe_classic.jpg"
+    },
+    {
         "merged": "D:\\BigProjects\\AndroidStudio\\Hermes\\app\\build\\intermediates\\res\\merged\\debug\\drawable_baseline_shopping_cart_black_24.png.flat",
         "source": "D:\\BigProjects\\AndroidStudio\\Hermes\\app\\src\\main\\res\\drawable\\baseline_shopping_cart_black_24.png"
     },
     {
         "merged": "D:\\BigProjects\\AndroidStudio\\Hermes\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_cards.xml.flat",
         "source": "D:\\BigProjects\\AndroidStudio\\Hermes\\app\\src\\main\\res\\layout\\activity_cards.xml"
-    },
-    {
-        "merged": "D:\\BigProjects\\AndroidStudio\\Hermes\\app\\build\\intermediates\\res\\merged\\debug\\drawable_nescafe_classic.jpg.flat",
-        "source": "D:\\BigProjects\\AndroidStudio\\Hermes\\app\\src\\main\\res\\drawable\\nescafe_classic.jpg"
     },
     {
         "merged": "D:\\BigProjects\\AndroidStudio\\Hermes\\app\\build\\intermediates\\res\\merged\\debug\\anim_popup_show.xml.flat",
@@ -316,12 +316,12 @@
         "source": "D:\\BigProjects\\AndroidStudio\\Hermes\\app\\src\\main\\res\\menu\\stores_nav_bar.xml"
     },
     {
-        "merged": "D:\\BigProjects\\AndroidStudio\\Hermes\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register.xml.flat",
-        "source": "D:\\BigProjects\\AndroidStudio\\Hermes\\app\\src\\main\\res\\layout\\activity_register.xml"
-    },
-    {
         "merged": "D:\\BigProjects\\AndroidStudio\\Hermes\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_card_details.xml.flat",
         "source": "D:\\BigProjects\\AndroidStudio\\Hermes\\app\\src\\main\\res\\layout\\activity_card_details.xml"
+    },
+    {
+        "merged": "D:\\BigProjects\\AndroidStudio\\Hermes\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register.xml.flat",
+        "source": "D:\\BigProjects\\AndroidStudio\\Hermes\\app\\src\\main\\res\\layout\\activity_register.xml"
     },
     {
         "merged": "D:\\BigProjects\\AndroidStudio\\Hermes\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_test.xml.flat",

@@ -899,7 +899,20 @@ public class Storage {
     }
 
 
+    public static boolean checkExists(Context context, boolean isEmployee, String mail){
 
+        String processorName;
+        if(isEmployee) processorName= StringExtras.PROCCESSOR_STRIPE;
+        else processorName = StringExtras.PROCCESSOR_BRAINTREE;
+
+        String m = mail.replace(".", "_");
+
+        File file = new File(context.getFilesDir()+"/"+processorName+"/"+m+"/"+ IDS_FILE);
+
+        if(file.exists()) return true;
+        else return false;
+
+    }
 
 
     public static void saveCardDetails(Context context, String json){

@@ -1,6 +1,7 @@
 package gr.convr.hermes.easyfuel.server;
 
 import android.media.Image;
+import android.util.Log;
 
 import com.google.gson.Gson;
 import com.google.gson.annotations.SerializedName;
@@ -36,7 +37,7 @@ public class BraintreeServerAPIS {
         MediaType mediaType = MediaType.parse("application/json; charset=utf-8");
 
         RequestBody reqBody = RequestBody.create(mediaType,  JSONRequest);
-
+        Log.d("about to connect", BACKEND_URL+url);
         Request req =  new Request.Builder()
                 .url(BACKEND_URL + url)
                 .post(reqBody)
