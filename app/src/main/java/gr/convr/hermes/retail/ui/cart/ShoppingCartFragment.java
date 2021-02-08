@@ -53,6 +53,7 @@ public class ShoppingCartFragment extends Fragment {
         public void handleMessage(Message msg) {
             Bundle bundle = msg.getData();
             String string = bundle.getString("json");
+
             BraintreeServerAPIS.RetailProduct product = new Gson().fromJson(string, BraintreeServerAPIS.RetailProduct.class);
             Log.d("details: ", product.getName()+"\t"+product.getPrice());
             loadPopup(product_dets_window, product.getName(), product.getPrice());
@@ -61,6 +62,8 @@ public class ShoppingCartFragment extends Fragment {
             Log.d("img sourxce", id+"");
             AddItem(nameLayout, priceLayout, product);
             return;
+
+
 
         }
     };
@@ -75,10 +78,20 @@ public class ShoppingCartFragment extends Fragment {
 
             DataInputStream din = new DataInputStream(s.getInputStream());
 
-
-
-            while(true){
+            while (din != null){
                 json=din.readUTF();
+
+                if(json.equals("CLOSE_SOCKET")){
+                    din.close();
+                    din = null;
+                    s.close();
+                    s = null;
+
+                    mHandler.removeCallbacks(this::onResume);
+
+                    break;
+                }
+
                 if(!json.equals(" ")){
                     Log.d("server sent: ", json);
                     Message msg = new Message();
@@ -88,6 +101,7 @@ public class ShoppingCartFragment extends Fragment {
                     mHandler.sendMessage(msg);
                 }
             }
+
         } catch (IOException e) {
             e.printStackTrace();
 
@@ -175,6 +189,15 @@ public class ShoppingCartFragment extends Fragment {
         priceLayout.removeAllViews();
         LoadProducts(imgLayout, nameLayout, priceLayout);*/
     }
+
+    @Override
+    public void onStop(){
+
+        product_dets_window.cancel();
+        super.onStop();
+
+    }
+
 
     private void loadPopup(BottomSheetDialog popup, String productName, float productPrice){
 

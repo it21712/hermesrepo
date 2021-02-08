@@ -25,7 +25,7 @@ public class BraintreeServerAPIS {
     public static final String PAYPAL_DETAILS_URL = "paypal_accounts";
     public static final String ADD_PAYMENT_METHOD_URL = "add_payment_method";
     public static final String DELETE_PAYMENT_METHOD_URL = "delete_payment_method";
-    public static final String GET_SCANNED_PRODUCT_LABEL = "label";
+    public static final String CART = "cart";
 
     private static Gson gson = new Gson();
 

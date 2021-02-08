@@ -1,6 +1,9 @@
 package gr.convr.hermes.retail;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.os.Looper;
+import android.util.Log;
 import android.view.View;
 import android.view.Menu;
 
@@ -16,7 +19,15 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import java.io.IOException;
+
 import gr.convr.hermes.R;
+import gr.convr.hermes.core.MainMenu;
+import gr.convr.hermes.easyfuel.MainActivity;
+import gr.convr.hermes.easyfuel.server.BraintreeServerAPIS;
+import okhttp3.Call;
+import okhttp3.Callback;
+import okhttp3.Response;
 
 public class StoresNavBar extends AppCompatActivity {
 
@@ -42,6 +53,7 @@ public class StoresNavBar extends AppCompatActivity {
         NavigationUI.setupWithNavController(navigationView, navController);
     }
 
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -54,5 +66,30 @@ public class StoresNavBar extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.stores_nav_host_fragment);
         return NavigationUI.navigateUp(navController, mAppBarConfiguration)
                 || super.onSupportNavigateUp();
+    }
+
+    @Override
+    public void onBackPressed(){
+        Intent i = new Intent(StoresNavBar.this, MainMenu.class);
+
+        BraintreeServerAPIS.sendRequest2(BraintreeServerAPIS.CART, "{\"string\": \"CLOSE_SOCKET\"}", new Callback() {
+            @Override
+            public void onFailure(Call call, IOException e) {
+                Log.d("CART ROUTE ERROR", e.getMessage());
+            }
+
+            @Override
+            public void onResponse(Call call, Response response) throws IOException {
+                if(response.isSuccessful()){
+                    Log.d("CART RESPONSE", response.body().string());
+                }else{
+                    Log.d("CART RESPONSE", response.message());
+                }
+            }
+        });
+
+        startActivity(i);
+        finish();
+
     }
 }
