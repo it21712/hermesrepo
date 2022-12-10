@@ -39,7 +39,7 @@ import okhttp3.Response;
 public class StripeServerAPIS {
 
 
-    private static final String BACKEND_URL = "http://10.0.2.2:4567/";
+    private static final String BACKEND_URL;
     public static final String CREATE_CUSTOMER_URL = "create-customer";
     private static final String CREATE_PAYMENT_INTENT_URL = "create-payment-intent";
     private static final String UPDATE_CUSTOMER_URL = "update-customer";
