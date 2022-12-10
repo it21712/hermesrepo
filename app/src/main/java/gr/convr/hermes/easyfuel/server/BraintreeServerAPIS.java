@@ -13,7 +13,7 @@ import okhttp3.RequestBody;
 
 public class BraintreeServerAPIS {
 
-    private static final String BACKEND_URL = "http://10.0.2.2:4567/";
+    private static final String BACKEND_URL;
 
     public static final String CLIENT_TOKEN_URL = "client_token";
     public static final String CHECKOUT_URL = "checkout";
